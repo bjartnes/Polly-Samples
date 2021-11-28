@@ -64,8 +64,6 @@ namespace PollyTestWebApi
             // TODO: Need to only enable for certain routes
             app.UseIpRateLimiting();
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseStaticFiles();
